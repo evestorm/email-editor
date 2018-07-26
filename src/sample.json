@@ -1,0 +1,441 @@
+{
+    "counters": {
+        "u_column": 10,
+        "u_row": 8,
+        "u_content_button": 3,
+        "u_content_image": 4,
+        "u_content_text": 6,
+        "u_content_html": 2,
+        "u_content_divider": 1
+    },
+    "body": {
+        "rows": [{
+            "cells": [1, 1, 1],
+            "columns": [{
+                "contents": [],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_8",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }, {
+                "contents": [{
+                    "type": "html",
+                    "values": {
+                        "containerPadding": "10px",
+                        "_meta": {
+                            "htmlID": "u_content_html_2",
+                            "htmlClassNames": "u_content_html"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "deletable": true,
+                        "html": "<br>\n"
+                    }
+                }, {
+                    "type": "image",
+                    "values": {
+                        "maxWidth": "100%",
+                        "src": {
+                            "url": "https://s3.cn-north-1.amazonaws.com.cn/static-documents/email/udacity-china-logo.png",
+                            "width": 309,
+                            "height": 105
+                        },
+                        "_meta": {
+                            "htmlID": "u_content_image_3",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "draggable": true,
+                        "containerPadding": "0px",
+                        "deletable": true,
+                        "selectable": true,
+                        "action": {
+                            "url": "https://cn.udacity.com",
+                            "target": ""
+                        },
+                        "altText": "Udacity_Logo",
+                        "fullWidth": false,
+                        "textAlign": "center"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_9",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }, {
+                "contents": [],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_10",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }],
+            "values": {
+                "backgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": false,
+                    "center": true,
+                    "cover": false
+                },
+                "padding": "0px",
+                "columnsBackgroundColor": "",
+                "_meta": {
+                    "htmlID": "u_row_8",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "deletable": true
+            }
+        }, {
+            "cells": [1],
+            "columns": [{
+                "contents": [{
+                    "type": "image",
+                    "values": {
+                        "maxWidth": "100%",
+                        "src": {
+                            "url": "https://s3.cn-north-1.amazonaws.com.cn/static-assets/email+marketing/20180109-Baidu-Apollo-Email-Banner.jpg",
+                            "width": 600,
+                            "height": 220
+                        },
+                        "_meta": {
+                            "htmlID": "u_content_image_2",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "draggable": true,
+                        "containerPadding": "10px",
+                        "deletable": true,
+                        "selectable": true,
+                        "action": {
+                            "url": "http://cn.udacity.com/apollo/?utm_source=banner&utm_medium=email&utm_campaign=CES_APOLLO",
+                            "target": ""
+                        },
+                        "altText": "Apollo",
+                        "fullWidth": false,
+                        "textAlign": "center"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_2",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }],
+            "values": {
+                "backgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": false,
+                    "center": true,
+                    "cover": false
+                },
+                "padding": "10px",
+                "columnsBackgroundColor": "",
+                "_meta": {
+                    "htmlID": "u_row_2",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "deletable": true
+            }
+        }, {
+            "cells": [1],
+            "columns": [{
+                "contents": [{
+                    "type": "text",
+                    "values": {
+                        "color": "#000",
+                        "_meta": {
+                            "htmlID": "u_content_text_1",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "text": "<p style=\"text-size-adjust: none; color: #525c65; margin-top: 20px; line-height: 140%; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px;\"><span style=\"text-size-adjust: none; color: #475577; font-size: 14px; line-height: 19.6px;\">Hi, Jane</span></p>\n<p style=\"text-size-adjust: none; color: #525c65; margin-top: 20px; line-height: 140%; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px;\"><span style=\"text-size-adjust: none; color: #475577; font-size: 14px; line-height: 19.6px;\">感谢你关注 Udacity x 百度 Apollo 即将联合推出的无人驾驶入门单项课程！课程预计将于2018年年中推出，我们将通过邮件为你发送开课通知。</span></p>\n<p style=\"text-size-adjust: none; color: #525c65; margin-top: 20px; line-height: 140%; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px;\"><span style=\"text-size-adjust: none; color: #475577; font-size: 14px; line-height: 19.6px;\">成为抢手人才不想等待？你还可以抢先优惠学Udacity独家&nbsp;<a style=\"text-size-adjust: none; color: #02b3e4;\" href=\"http://cn.udacity.com/course/intro-to-self-driving-cars--nd113/?utm_source=link&amp;utm_medium=email&amp;utm_campaign=CES_APOLLO\" target=\"_blank\" rel=\"noopener noreferrer\">硅谷无人驾驶认证课程</a>&nbsp;。</span></p>\n<p style=\"line-height: 140%; font-size: 14px;\"><br style=\"text-size-adjust: none; color: #525c65; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif;\" /><strong style=\"text-size-adjust: none; color: #525c65; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif;\"><span style=\"text-size-adjust: none; color: #e25041; font-size: 18px; line-height: 25.2px;\">限时300元优惠码：APOLLO</span>&nbsp;</strong><br style=\"text-size-adjust: none; color: #525c65; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif;\" /><br style=\"text-size-adjust: none; color: #525c65; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif;\" /><span style=\"text-size-adjust: none; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; color: #475577; font-size: 14px; line-height: 19.6px;\"><strong style=\"text-size-adjust: none;\">优惠码有效至1/31</strong>，可用于在 Udacity 中国购买&ldquo;无人驾驶入门&rdquo;基石纳米学位。</span></p>",
+                        "draggable": true,
+                        "containerPadding": "10px",
+                        "deletable": true,
+                        "selectable": true,
+                        "textAlign": "left",
+                        "lineHeight": "140%"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_3",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }],
+            "values": {
+                "backgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": false,
+                    "center": true,
+                    "cover": false
+                },
+                "padding": "10px",
+                "columnsBackgroundColor": "",
+                "_meta": {
+                    "htmlID": "u_row_3",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "deletable": true
+            }
+        }, {
+            "cells": [1],
+            "columns": [{
+                "contents": [{
+                    "type": "button",
+                    "values": {
+                        "buttonColors": {
+                            "color": "#FFFFFF",
+                            "backgroundColor": "#3AAEE0",
+                            "hoverColor": "#2A92BF"
+                        },
+                        "_meta": {
+                            "htmlID": "u_content_button_3",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "calculatedHeight": 46,
+                        "calculatedWidth": 204,
+                        "href": {
+                            "url": "http://cn.udacity.com/course/intro-to-self-driving-cars--nd113/?utm_source=button&utm_medium=email&utm_campaign=CES_APOLLO",
+                            "target": ""
+                        },
+                        "border": {
+                            "borderRightStyle": "solid",
+                            "borderTopStyle": "solid",
+                            "borderBottomColor": "#CCC",
+                            "borderBottomWidth": "0px",
+                            "borderLeftColor": "#CCC",
+                            "borderLeftWidth": "0px",
+                            "borderRightColor": "#CCC",
+                            "borderRightWidth": "0px",
+                            "borderBottomStyle": "solid",
+                            "borderTopColor": "#CCC",
+                            "borderTopWidth": "0px",
+                            "borderLeftStyle": "solid"
+                        },
+                        "text": "立即使用优惠",
+                        "draggable": true,
+                        "containerPadding": "10px",
+                        "padding": "15px 60px",
+                        "deletable": true,
+                        "selectable": true,
+                        "textAlign": "center",
+                        "lineHeight": "120%",
+                        "borderRadius": "4px"
+                    }
+                }, {
+                    "type": "text",
+                    "values": {
+                        "color": "#000",
+                        "_meta": {
+                            "htmlID": "u_content_text_2",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "text": "<p style=\"text-align: center; font-size: 14px; line-height: 140%;\"><span style=\"color: #a9a9a9; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; font-style: italic; font-weight: bold; text-align: center; font-size: 14px; line-height: 19.6px;\">所有课程开抢中！剩余席位数请见课程页面</span></p>",
+                        "draggable": true,
+                        "containerPadding": "10px",
+                        "deletable": true,
+                        "selectable": true,
+                        "textAlign": "left",
+                        "lineHeight": "140%"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_4",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }],
+            "values": {
+                "backgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": false,
+                    "center": true,
+                    "cover": false
+                },
+                "padding": "10px",
+                "columnsBackgroundColor": "",
+                "_meta": {
+                    "htmlID": "u_row_4",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "deletable": true
+            }
+        }, {
+            "cells": [1],
+            "columns": [{
+                "contents": [{
+                    "type": "text",
+                    "values": {
+                        "color": "#000",
+                        "_meta": {
+                            "htmlID": "u_content_text_3",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "text": "<p style=\"text-size-adjust: none; color: #525c65; margin-top: 15px; margin-bottom: 15px; line-height: 140%; font-family: 'PingFang SC'; font-size: 16px;\"><span style=\"text-size-adjust: none; font-size: 14px; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; line-height: 19.6px;\">如果你还没有优达学城账号，请先&nbsp;<a style=\"text-size-adjust: none; color: #02b3e4;\" href=\"https://cn.udacity.com/signup/?utm_source=link&amp;utm_medium=email&amp;utm_campaign=CES_APOLLO\" target=\"_blank\" rel=\"noopener noreferrer\">注册</a>后使用优惠码。</span></p>\n<ul style=\"text-size-adjust: none; color: #525c65; font-family: 'PingFang SC'; font-size: medium;\">\n<li style=\"text-size-adjust: none; font-size: 16px; line-height: 22.4px;\"><span style=\"text-size-adjust: none; font-size: 14px; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; line-height: 19.6px;\">麻辣锅巴真好吃</span></li>\n<li style=\"text-size-adjust: none; font-size: 16px; line-height: 22.4px;\"><span style=\"text-size-adjust: none; font-size: 14px; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; line-height: 19.6px;\">麻辣锅巴真好吃</span></li>\n<li style=\"text-size-adjust: none; font-size: 16px; line-height: 22.4px;\"><span style=\"text-size-adjust: none; font-size: 14px; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; line-height: 19.6px;\">麻辣锅巴真好吃</span></li>\n</ul>",
+                        "draggable": true,
+                        "containerPadding": "10px",
+                        "deletable": true,
+                        "selectable": true,
+                        "textAlign": "left",
+                        "lineHeight": "140%"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_6",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }],
+            "values": {
+                "backgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": false,
+                    "center": true,
+                    "cover": false
+                },
+                "padding": "10px",
+                "columnsBackgroundColor": "",
+                "_meta": {
+                    "htmlID": "u_row_6",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "deletable": true
+            }
+        }, {
+            "cells": [1],
+            "columns": [{
+                "contents": [{
+                    "type": "text",
+                    "values": {
+                        "color": "#000",
+                        "_meta": {
+                            "htmlID": "u_content_text_4",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "text": "<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"color: #a9a9a9; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.6px;\">掌握硅谷最前沿技术，&nbsp;</span><br style=\"text-size-adjust: none; color: #a9a9a9; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif;\" /><span style=\"color: #a9a9a9; font-family: 'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.6px;\">只在优达学城（Udacity）</span></p>",
+                        "draggable": true,
+                        "containerPadding": "10px",
+                        "deletable": true,
+                        "selectable": true,
+                        "textAlign": "left",
+                        "lineHeight": "140%"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_7",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }],
+            "values": {
+                "backgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": false,
+                    "center": true,
+                    "cover": false
+                },
+                "padding": "10px",
+                "columnsBackgroundColor": "",
+                "_meta": {
+                    "htmlID": "u_row_7",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "deletable": true
+            }
+        }, {
+            "cells": [1],
+            "columns": [{
+                "contents": [{
+                    "type": "html",
+                    "values": {
+                        "containerPadding": "10px",
+                        "_meta": {
+                            "htmlID": "u_content_html_1",
+                            "htmlClassNames": "u_content_html"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "deletable": true,
+                        "html": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%;\">\n  <tbody>\n    <!-- 底部logo开始 -->\n                                    <tr>\n                                        <td align=\"center\" style=\"padding:15px 0 20px 0;\">\n\n                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:220px;\">\n                                                <tbody>\n                                                    <tr>\n                                                        <td align=\"center\">\n                                                            <div>\n                                                                <a href=\"http://cn.udacity.com/#wechatQR\" target=\"_blank\">\n                                                                    <img alt=\"WeChat\" border=\"0\" height=\"26\" src=\"https://s3.cn-north-1.amazonaws.com.cn/static-documents/email/wechat-btn.png\"\n                                                                        style=\"display:block; width:26px!important; height:26px!important;\"\n                                                                        width=\"26\">\n                                                                </a>\n                                                            </div>\n                                                        </td>\n                                                        <td align=\"center\">\n                                                            <div>\n                                                                <a href=\"http://www.weibo.com/5862682953/\" target=\"_blank\">\n                                                                    <img alt=\"Weibo\" border=\"0\" height=\"26\" src=\"https://s3.cn-north-1.amazonaws.com.cn/static-documents/email/weibo-btn.png\"\n                                                                        style=\"display:block; width:26px!important; height:26px!important;\"\n                                                                        width=\"26\">\n                                                                </a>\n                                                            </div>\n                                                        </td>\n                                                        <td align=\"center\">\n                                                            <div>\n                                                                <a href=\"https://www.linkedin.com/company/udacity\" target=\"_blank\">\n                                                                    <img alt=\"Linkedin\" border=\"0\" height=\"26\" src=\"https://s3.cn-north-1.amazonaws.com.cn/static-documents/email/linkedin-btn.jpg\"\n                                                                        style=\"display:block; width:26px!important; height:26px!important;\"\n                                                                        width=\"26\">\n                                                                </a>\n                                                            </div>\n                                                        </td>\n                                                    </tr>\n                                                </tbody>\n                                            </table>\n                                        </td>\n                                    </tr>\n                                    <!-- 底部logo结束 -->\n                                    <!-- 退订开始 -->\n                                    <tr>\n                                        <td align=\"center\">\n\n                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"font-family:'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px;  text-align:center;\">\n                                                <tbody>\n                                                    <tr>\n                                                        <td align=\"center\" class=\"body-text\" style=\"color:#b7bdc1; font-family:'Open+Sans', 'Open Sans', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:center;\">\n\n                                                            <p style=\"Margin:0 0 0 0;\">\n                                                                <a href=\"{{url.unsubscribe}}\" style=\"color:#b7bdc1 ; text-decoration: underline;\" title=\"Link: https://www.udacity.com/status/unsubscribed\">点击此处退订该类邮件</a>\n                                                            </p>\n                                                        </td>\n                                                    </tr>\n                                                </tbody>\n                                            </table>\n                                        </td>\n                                    </tr>\n                                    <!-- 退订结束 -->\n  </tbody>\n</table>"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_5",
+                        "htmlClassNames": "u_column"
+                    }
+                }
+            }],
+            "values": {
+                "backgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": false,
+                    "center": true,
+                    "cover": false
+                },
+                "padding": "10px",
+                "columnsBackgroundColor": "",
+                "_meta": {
+                    "htmlID": "u_row_5",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "deletable": true
+            }
+        }],
+        "values": {
+            "backgroundColor": "#ffffff",
+            "backgroundImage": {
+                "url": "",
+                "fullWidth": true,
+                "repeat": false,
+                "center": true,
+                "cover": false
+            },
+            "contentWidth": "500px",
+            "fontFamily": {
+                "label": "Arial",
+                "value": "arial,helvetica,sans-serif"
+            },
+            "_meta": {
+                "htmlID": "u_body",
+                "htmlClassNames": "u_body"
+            }
+        }
+    }
+}
